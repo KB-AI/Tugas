@@ -522,7 +522,7 @@ def mcplayout(pos, amaf_map, disp=False):
     if disp:  print('** SIMULATION **', file=sys.stderr)
     start_n = pos.n
     passes = 0
-    while passes < 2 and pos.n < 250 :
+    while passes < 2 and pos.n < 230:
         if disp:  print_pos(pos)
 
         pos2 = None
